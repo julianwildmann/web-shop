@@ -2,7 +2,7 @@
   "name": "julianwildmann.github.io",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://julianwildmann.github.io/online-shop",
+  "homepage": "https://julianwildmann.github.io/web-shop",
   "dependencies": {
     "@google/model-viewer": "^0.4.0",
     "gh-pages": "^2.0.1",
