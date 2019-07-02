@@ -13,7 +13,7 @@ class ModelViewer extends React.Component {
                         src="media/3D-files/BlenderglTF.gltf" poster="media/3D-files/DSW_Poster.png" alt="DSW Chair" background-color="#FFFFFF" camera-controls auto-rotate>
                     </model-viewer>
                 </div>
-                <p id="instruction">Wische über den Stuhl um ihn von allen Seiten zu betrachten</p>
+                <p id="instruction">Tippe einmal auf den Stuhl und wische dann über das Model, um es von allen Seiten zu betrachten</p>
             </div>    
         )
     }
