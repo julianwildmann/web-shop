@@ -1,0 +1,80 @@
+.App {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  background-color: white;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #f4f4f4;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+#responsive-gallery-image {
+  width: 100%;  height: auto;
+  margin-top: 0px;
+  padding-top: 0px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+
+#responsive-gallerynothumb-image {
+  width: 100%;  height: auto;
+  margin-top: 0px;
+  padding-top: 0px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+
+#responsive-thumbnail-image {
+  width: 15%;  height: auto;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+#description-text {
+  text-align: justify;
+}
+
+table, th, td {
+  border: 1px solid #282c34;
+  border-collapse: collapse;
+  padding: 5px;
+}
+
+#heading {
+  color: white;
+  text-align: left;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+
+#subheading {
+  color: #888888;
+  text-align: left;
+  margin-top: 0px;
+  padding-top: 0px;
+}
+
+#Canvas {
+  width: 100%;
+  height: auto;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
