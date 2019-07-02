@@ -1,0 +1,27 @@
+import React from 'react';
+import { Link } from "react-router-dom";
+
+// Button that triggers AR quick look module
+
+class TwoButtons extends React.Component { 
+    render() {
+        return (
+            <div className="TwoButtons" >
+                <div id="Button">
+                    <a href="https://apps.8thwall.com/ahyiquuj/ARCam1/">
+                    <img src="media/ar-button.jpg" alt="AR-Button" width="20%" height="auto"/>            
+                    </a>
+                </div> 
+
+                <div id="Button">
+                    <Link to="2dpighli3d">
+                        <img src="media/3D-button.jpg" alt="3D-Button" width="20%" height="auto"/>
+                    </Link>
+                </div>
+            </div>
+
+        )
+    }
+}
+
+export default TwoButtons;

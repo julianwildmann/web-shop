@@ -23,6 +23,9 @@ class Links extends React.Component {
                 <Link to="/emwmx9nyt4">
                     <li>AR button</li>
                 </Link>
+                <Link to="/5r0wqpn8p5">
+                    <li>AR and 3D button</li>
+                </Link>
                 <Link to="/au8r3nxxb3">
                     <li>3D+AR embedeed</li>
                 </Link>

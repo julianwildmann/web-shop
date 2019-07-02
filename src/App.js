@@ -9,6 +9,7 @@ import Group2 from "./components/Group2";
 import Group21 from "./components/Group21";
 import Group3 from "./components/Group3";
 import Group4 from "./components/Group4";
+import Group5 from "./components/Group5";
 import Group31 from "./components/Group31";
 import Links from "./components/Links";
 import ModelViewer from './components/ModelViewer';
@@ -31,6 +32,7 @@ class App extends Component {
                 <Route path="/au8r3nxxb3" component={Group3} />
                 <Route path="/t1kl07iwz3" component={Group31} />
                 <Route path="/emwmx9nyt4" component={Group4} />
+                <Route path="/5r0wqpn8p5" component={Group5} />
                 <Route path="/2dpighli3d" component={ModelViewer} />
                 <Route path="/ef0kij1par" component={ModelViewerAR} />
                 <Route path="/links" component={Links} />
