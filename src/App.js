@@ -43,7 +43,7 @@ class App extends Component {
             // Falls ein inkompatibles Gerät verwendet wurde, zeige folgende Fehlermeldung:
             return (
               <div>
-                <p>Bitte öffne die Umfrage auf Smartphone oder Tablet und starte die Umfrage erneut.</p>
+                <p>Bitte starte die Umfrage auf einem Smartphone oder Tablet neu: Link.</p>
               </div>
             )
     }
