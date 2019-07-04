@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { isMobileSafari, isSafari, osVersion } from "react-device-detect";
+import { isMobileSafari, isSafari, osVersion, isMobile } from "react-device-detect";
 import { HashRouter, Route, Switch } from "react-router-dom";
 import './App.css';
 import Home from "./components/Home";
@@ -20,7 +20,7 @@ class App extends Component {
   render() {
     // Prüfe, ob der User ein kompatibles iOS device verwendet (iPhone, iPad, iPod mit iOS 12 oder höher)
     // if(/(iPhone|iPad|iPod)\sOS\s12/.test(navigator.userAgent))
-    if(isSafari) return (
+    if(isMobile) return (
       <HashRouter basename="/">
             <div className="App">
               <Switch>
@@ -43,7 +43,7 @@ class App extends Component {
             // Falls ein inkompatibles Gerät verwendet wurde, zeige folgende Fehlermeldung:
             return (
               <div>
-                <p>Bitte öffne die Umfrage auf einem iPhone, iPad oder iPod (iOS12 oder höher) im Safari Browser und starte die Umfrage erneut.</p>
+                <p>Bitte öffne die Umfrage auf Smartphone oder Tablet und starte die Umfrage erneut.</p>
               </div>
             )
     }
