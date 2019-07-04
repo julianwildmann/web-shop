@@ -7,19 +7,18 @@ class TwoButtons extends React.Component {
     render() {
         return (
             <div className="TwoButtons" >
-                <div id="Button">
+                <span className="Button">
                     <a href="https://apps.8thwall.com/ahyiquuj/ARCam1/">
-                    <img src="media/ar-button.jpg" alt="AR-Button" width="20%" height="auto"/>            
+                    <img src="media/ar-button.jpg" alt="AR-Button" width="35%" height="auto"/>            
                     </a>
-                </div> 
+                </span> 
 
-                <div id="Button">
+                <span className="Button">
                     <Link to="2dpighli3d">
-                        <img src="media/3D-button.jpg" alt="3D-Button" width="20%" height="auto"/>
+                        <img src="media/3D-button.jpg" alt="3D-Button" width="35%" height="auto"/>
                     </Link>
-                </div>
+                </span>
             </div>
-
         )
     }
 }
