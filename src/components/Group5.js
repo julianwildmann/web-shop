@@ -4,7 +4,7 @@ import Gallery from "./Gallery";
 import Description from "./Description";
 import TwoButtons from './TwoButtons';
 
-// Embedded AR viewer + static information
+// AR + 3D Button + static information
 
 class Group4 extends React.Component { 
     render() {
