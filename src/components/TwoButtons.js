@@ -8,7 +8,7 @@ class TwoButtons extends React.Component {
         return (
             <div className="TwoButtons" >
                 <span className="Button">
-                    <a href="apps.8thwall.com/ahyiquuj/ARCam2">
+                    <a href="https://apps.8thwall.com/ahyiquuj/ARCam2/">
                     <img src="media/ar-button.jpg" alt="AR-Button" width="40%" height="auto"/>            
                     </a>
                 </span> 
