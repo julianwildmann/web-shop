@@ -8,8 +8,8 @@ class ModelViewerAR extends React.Component {
         return (
             <div id="ModelViewerContainer">
                 <div>
-                    <model-viewer id="ModelViewerAR"
-                        src="media/3D-files/DSW.gltf" ios-src="media/3D-files/BlenderFinal1.usdz" poster="media/3D-files/DSW_Poster.png" alt="DSW Chair" background-color="#FFFFFF" camera-controls>
+                    <model-viewer id="ModelViewerAR" preload camera-controls
+                        src="media/3D-files/DSW.gltf" ios-src="media/3D-files/BlenderFinal1.usdz" poster="media/3D-files/DSW_Poster.png" alt="DSW Chair" background-color="#FFFFFF">
                     </model-viewer>
                 </div>
                 <p id="instruction">Tippe auf das Symbol rechts, um den Stuhl in deiner Umgebung zu platzieren</p>
