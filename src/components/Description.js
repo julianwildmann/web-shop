@@ -39,7 +39,7 @@ const descriptionStyle ={
     paddingTop: "1px",
     paddingBottom: "1px",
     paddingLeft: "10px",
-    paddingRight: "0px",
+    paddingRight: "10px",
 }
 
 export default Description;
