@@ -12,6 +12,7 @@ class Description extends React.Component {
                 
                 <div className="Measurements" >
                     <table align="left">
+                        <tbody>
                             <tr>
                                 <th> </th>
                                 <th>Breite</th>
@@ -28,6 +29,7 @@ class Description extends React.Component {
                                 <td>430</td>
                                 <td>465</td>
                             </tr>
+                        </tbody>
                     </table>
                 </div>
             </div>
