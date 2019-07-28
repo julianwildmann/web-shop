@@ -2,7 +2,7 @@ import React from 'react';
 import Header from "./Header"
 import Gallery from "./Gallery";
 import Description from "./Description";
-import ARAppButton from './ARAppButton';
+import ARButton from './ARButton';
 
 // AR Button + static information
 
@@ -12,7 +12,7 @@ class Group4 extends React.Component {
             <div className="Group3">
             <Header />
             <Gallery />
-            <ARAppButton />
+            <ARButton />
             <Description />
             </div>
         )

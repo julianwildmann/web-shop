@@ -9,7 +9,7 @@
 
 #reveal {
     position: relative;
-    height: 70vh;
+    height: 65vh;
     align-content: center;
     display: inline-block;
 }
@@ -17,7 +17,7 @@
 #ModelViewerContainer {
     border-style: solid;
     border-width: thin;
-    margin-top: 25px;
+    margin-top: 0px;
     border-color: #AAAAAA;
 }
 

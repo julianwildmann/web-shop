@@ -6,7 +6,7 @@ class ARButton extends React.Component {
     render() {
         return (
           <div className="Button">
-            <a href="media/3D-files/BlenderFinal1.usdz" rel="ar">
+            <a href="https://apps.8thwall.com/ahyiquuj/ARCam1/">
               <img src="media/ar-button.jpg" alt="AR-Button" width="45%" height="auto" />            
             </a>
           </div>
