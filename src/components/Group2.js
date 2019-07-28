@@ -10,10 +10,10 @@ class Group2 extends React.Component {
     render() {
         return (
             <div className="Group2">
-            <Header />
-            <Gallery />
-            <ModelViewer />
-            <Description />
+                <Header />
+                <Gallery />
+                <ModelViewer />
+                <Description />
             </div>
         )
     }

@@ -9,9 +9,9 @@ class Group1 extends React.Component {
     render() {
         return (
             <div className="Group1">
-            <Header />
-            <Gallery />
-            <Description />
+                <Header />
+                <Gallery />
+                <Description />
             </div>
         )
     }
