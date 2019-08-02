@@ -1,16 +1,16 @@
 import React from 'react'
- 
+
 class Description extends React.Component {
-    render () {
+    render() {
         return (
-            <div className="Static Information" style={descriptionStyle}>
-                <div className="Product Description">
+            <div className="ProductDescription">
+                <div className="text">
                     <h3 align="left">Produktbeschreibung</h3>
                     <p id="description-text">Beim Dining Height Side Chair Wood Base (DSW) kombinierten Charles und Ray Eames die organische Sitzschale mit einem Vierbein-Holzuntergestell. Die Kombination von Kunststoff und Holz verleiht dem Klassiker eine gewisse Wärme, eine besonders wohnliche Note.</p>
                     <h3 align="left">Maße</h3>
                 </div>
-                
-                <div className="Measurements" >
+
+                <div className="table">
                     <table align="left">
                         <tbody>
                             <tr>
@@ -36,12 +36,5 @@ class Description extends React.Component {
         )
     }
 };
-
-const descriptionStyle ={
-    paddingTop: "1px",
-    paddingBottom: "1px",
-    paddingLeft: "10px",
-    paddingRight: "10px",
-}
 
 export default Description;

@@ -3,7 +3,7 @@ import "@google/model-viewer";
 import "./Components.css";
 
 
-class ModelViewerAR extends React.Component { 
+class ModelViewerAR extends React.Component {
     render() {
         return (
             <div id="ModelViewerContainer">
@@ -13,7 +13,7 @@ class ModelViewerAR extends React.Component {
                     </model-viewer>
                 </div>
                 <p id="instruction">Tippe auf das Symbol rechts, um den Stuhl in deiner Umgebung zu platzieren</p>
-            </div>    
+            </div>
         )
     }
 }

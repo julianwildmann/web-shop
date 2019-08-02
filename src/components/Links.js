@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 // Links for reference to experimental groups
 
-class Links extends React.Component { 
+class Links extends React.Component {
     render() {
         return (
             <div>

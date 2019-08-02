@@ -17,8 +17,8 @@
 #ModelViewerContainer {
     border-style: solid;
     border-width: thin;
-    margin-top: 0px;
     border-color: #AAAAAA;
+    margin-bottom: 20px;
 }
 
 #ModelViewerAR {
@@ -60,13 +60,15 @@
     padding-bottom: 15px;
 }
 
-/*
+.ProductDescription {
+    padding-top: 1px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 15px;
+}
 
-
-    position: relative;
-    width: 100%;
-    height: 0;
-    padding-bottom: 90%;
-    margin-left: auto;
-    margin-right: auto;
-*/
+.ReturnLink {
+    margin-top: 70px;
+    margin-bottom: 15px;
+}

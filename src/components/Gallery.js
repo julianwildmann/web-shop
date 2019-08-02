@@ -65,8 +65,3 @@ class Gallery extends React.Component {
 }
 
 export default Gallery;
-
-/* Button controls
-<button onClick={() => this.slidePrev()}>Vorheriges Bild</button>
-<button onClick={() => this.slideNext()}>Nächstes Bild</button>
-*/

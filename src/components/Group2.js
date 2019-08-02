@@ -3,10 +3,11 @@ import Header from "./Header"
 import Gallery from "./Gallery";
 import ModelViewer from "./ModelViewer";
 import Description from "./Description";
+import ReturnLink from "./ReturnLink";
 
 // Embedded 3D viewer static information
 
-class Group2 extends React.Component { 
+class Group2 extends React.Component {
     render() {
         return (
             <div className="Group2">
@@ -14,6 +15,7 @@ class Group2 extends React.Component {
                 <Gallery />
                 <ModelViewer />
                 <Description />
+                <ReturnLink />
             </div>
         )
     }
