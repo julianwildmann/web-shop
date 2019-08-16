@@ -32,7 +32,11 @@ class Links extends React.Component {
                 <Link to="/t1kl07iwz3">
                     <li>3D+AR button</li>
                 </Link>
+                <Link to="/1">
+                    <li>GroupImage</li>
+                </Link>
             </div>
+
         )
     }
 }

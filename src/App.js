@@ -14,6 +14,8 @@ import Group31 from "./components/Group31";
 import Links from "./components/Links";
 import ModelViewer from './components/ModelViewer';
 import ModelViewerAR from './components/ModelViewerAR';
+import GroupImage from './components/GroupImage';
+
 
 if (navigator.xr) {
   navigator.xr.requestDevice()
@@ -44,6 +46,7 @@ class App extends Component {
         <div className="App">
           <Switch>
             <Route path="/" exact component={Home} />
+            <Route path="/1" component={GroupImage} />
             <Route path="/z0rxa7k9p1" component={Group1} />
             <Route path="/toswg95b31" component={Group11} />
             <Route path="/gnwsusz0v2" component={Group2} />
