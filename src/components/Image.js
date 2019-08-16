@@ -6,9 +6,9 @@ class Image extends React.Component {
 
     render() {
         return (
-                <div className="Productimage">
-                    <img src="./img/Placeholder.png" alt="Placeholder"></img>
-                </div>
+            <span className="Placeholder">
+                <img src="/media/Placeholder.png" alt="Placeholder" width="100%%" height="auto" />
+            </span>
 
         )
     }
