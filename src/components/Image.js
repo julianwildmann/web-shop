@@ -8,7 +8,7 @@ class Image extends React.Component {
         return (
             <div>
                 <div className="Image">
-                    <img src="/media/ProductImage.jpg" alt="Eames Chair DSW" width="100%" height="auto" />
+                    <img src="media/ProductImage.jpg" alt="Eames Chair DSW" width="100%" height="auto" />
                 </div>
                 <div>
                     <a href="https://lmubwl.eu.qualtrics.com/jfe/form/SV_ePUxw8PFpCkMt6J"><button>Zurück zur Umfrage</button></a>

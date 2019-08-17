@@ -10,7 +10,7 @@ class PlaceholderModelviewer extends React.Component {
         return (
             <div className="PlaceholderModelviewer">
                     <Link to="8xr8d2hho2">
-                        <img src="/media/Placeholder.png" alt="Produkt ansehen" width="100%" height="auto" />
+                        <img src="media/Placeholder.png" alt="Produkt ansehen" width="100%" height="auto" />
                     </Link>
           </div>
         )

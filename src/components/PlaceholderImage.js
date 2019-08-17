@@ -10,7 +10,7 @@ class PlaceholderImage extends React.Component {
         return (
             <div className="PlaceholderImage">
                     <Link to="m07r92lap2">
-                        <img src="/media/Placeholder.png" alt="Produkt ansehen" width="100%" height="auto" />
+                        <img src="media/Placeholder.png" alt="Produkt ansehen" width="100%" height="auto" />
                     </Link>
           </div>
         )
