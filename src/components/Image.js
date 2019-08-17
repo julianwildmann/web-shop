@@ -10,7 +10,7 @@ class Image extends React.Component {
                 <div className="Image">
                     <img src="media/ProductImage.jpg" alt="Eames Chair DSW" width="100%" height="auto" />
                 </div>
-                <div className="ReturnLink">
+                <div className="ReturnLinkProductPage">
                     <a href="https://lmubwl.eu.qualtrics.com/jfe/form/SV_ePUxw8PFpCkMt6J">Zurück zur Umfrage</a>
                 </div>
 
