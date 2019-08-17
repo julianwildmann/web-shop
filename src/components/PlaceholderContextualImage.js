@@ -10,7 +10,7 @@ class PlaceholderContextualImage extends React.Component {
         return (
             <div className="PlaceholderContextualImage">
                     <Link to="b2hmfxezw2">
-                        <img src="/media/Placeholder.png" alt="PlaceholderImage" width="100%" height="auto" />
+                        <img src="/media/Placeholder.png" alt="Produkt ansehen" width="100%" height="auto" />
                     </Link>
           </div>
         )
