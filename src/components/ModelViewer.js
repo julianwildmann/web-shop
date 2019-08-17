@@ -21,8 +21,8 @@ class Modelviewer extends React.Component {
                     <p id="instruction">Tippe einmal auf den Stuhl und wische dann über das Modell, um es von allen Seiten zu betrachten.</p>
                 </div>
 
-                <div>
-                    <a href="https://lmubwl.eu.qualtrics.com/jfe/form/SV_ePUxw8PFpCkMt6J"><button>Zurück zur Umfrage</button></a>
+                <div className="ReturnLink">
+                    <a href="https://lmubwl.eu.qualtrics.com/jfe/form/SV_ePUxw8PFpCkMt6J">Zurück zur Umfrage</a>
                 </div>
             </div>
         )

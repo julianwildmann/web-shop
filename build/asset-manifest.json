@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/web-shop/static/css/main.42824dab.chunk.css",
-    "main.js": "/web-shop/static/js/main.60442778.chunk.js",
-    "main.js.map": "/web-shop/static/js/main.60442778.chunk.js.map",
+    "main.js": "/web-shop/static/js/main.5df6d37a.chunk.js",
+    "main.js.map": "/web-shop/static/js/main.5df6d37a.chunk.js.map",
     "runtime~main.js": "/web-shop/static/js/runtime~main.8a5ca21b.js",
     "runtime~main.js.map": "/web-shop/static/js/runtime~main.8a5ca21b.js.map",
     "static/js/2.9bfc9976.chunk.js": "/web-shop/static/js/2.9bfc9976.chunk.js",
     "static/js/2.9bfc9976.chunk.js.map": "/web-shop/static/js/2.9bfc9976.chunk.js.map",
     "index.html": "/web-shop/index.html",
-    "precache-manifest.ae132b8c5ca91973dadfbf232bc5fd0e.js": "/web-shop/precache-manifest.ae132b8c5ca91973dadfbf232bc5fd0e.js",
+    "precache-manifest.84da226ca2d953277d5c7c4d6ece2535.js": "/web-shop/precache-manifest.84da226ca2d953277d5c7c4d6ece2535.js",
     "service-worker.js": "/web-shop/service-worker.js",
     "static/css/main.42824dab.chunk.css.map": "/web-shop/static/css/main.42824dab.chunk.css.map"
   }
