@@ -3,18 +3,20 @@ import { isMobile } from "react-device-detect";
 import { HashRouter, Route, Switch } from "react-router-dom";
 import './App.css';
 import Home from "./components/Home";
-import Group1 from "./components/Group1";
-import Group11 from "./components/Group11";
-import Group2 from "./components/Group2";
-import Group21 from "./components/Group21";
-import Group3 from "./components/Group3";
-import Group4 from "./components/Group4";
-import Group5 from "./components/Group5";
-import Group31 from "./components/Group31";
+
+
 import Links from "./components/Links";
-import ModelViewer from './components/ModelViewer';
-import ModelViewerAR from './components/ModelViewerAR';
+
+
 import GroupImage from './components/GroupImage';
+import Image from './components/Image'; 
+import GroupContextualImage from './components/GroupContextualImage';
+import ContextualImage from './components/ContextualImage'; 
+import GroupModelviewer from './components/GroupModelviewer';
+import Modelviewer from './components/Modelviewer'; 
+import GroupAR from './components/GroupAR';
+import AR from './components/AR';
+ 
 
 
 if (navigator.xr) {
@@ -46,17 +48,15 @@ class App extends Component {
         <div className="App">
           <Switch>
             <Route path="/" exact component={Home} />
-            <Route path="/1" component={GroupImage} />
-            <Route path="/z0rxa7k9p1" component={Group1} />
-            <Route path="/toswg95b31" component={Group11} />
-            <Route path="/gnwsusz0v2" component={Group2} />
-            <Route path="/01w5b1lxb2" component={Group21} />
-            <Route path="/au8r3nxxb3" component={Group3} />
-            <Route path="/t1kl07iwz3" component={Group31} />
-            <Route path="/emwmx9nyt4" component={Group4} />
-            <Route path="/5r0wqpn8p5" component={Group5} />
-            <Route path="/2dpighli3d" component={ModelViewer} />
-            <Route path="/ef0kij1par" component={ModelViewerAR} />
+            <Route path="/m07r92lap1" component={GroupImage} />
+            <Route path="/m07r92lap2" component={Image} />
+            <Route path="/b2hmfxezw1" component={GroupContextualImage} />            
+            <Route path="/b2hmfxezw2" component={ContextualImage} />
+            <Route path="/8xr8d2hho1" component={GroupModelviewer} />            
+            <Route path="/8xr8d2hho2" component={Modelviewer} />
+            <Route path="/fdbyy46zp1" component={GroupAR} />            
+            <Route path="/fdbyy46zp2" component={AR} />
+
             <Route path="/links" component={Links} />
           </Switch>
         </div>

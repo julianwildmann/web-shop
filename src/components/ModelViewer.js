@@ -1,14 +1,14 @@
 import React from 'react';
 import "./Components.css";
 
-// Component that integrates 3D Model Viewer
+// 3D Model of Eames DSW Chair
 
-class ModelViewer extends React.Component {
+class Modelviewer extends React.Component {
 
     render() {
         return (
             <div>
-                <div id="ModelViewerContainer">
+                <div id="Modelviewer">
                     <div>
                         <model-viewer
                             id="reveal" preload camera-controls auto-rotate
@@ -29,4 +29,4 @@ class ModelViewer extends React.Component {
     }
 }
 
-export default ModelViewer;
+export default Modelviewer;

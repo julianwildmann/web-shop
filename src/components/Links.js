@@ -8,33 +8,21 @@ class Links extends React.Component {
         return (
             <div>
                 <p>Mit folgenden Links kann auf die Experimentalgruppen zugegriffen werden:</p>
-                <Link to="/z0rxa7k9p1">
-                    <li>AFT</li>
-                </Link>
-                <Link to="/toswg95b31">
-                    <li>AFT extended</li>
-                </Link>
-                <Link to="/gnwsusz0v2">
-                    <li>3D embedded</li>
-                </Link>
-                <Link to="/01w5b1lxb2">
-                    <li>3D button</li>
-                </Link>
-                <Link to="/emwmx9nyt4">
-                    <li>AR button</li>
-                </Link>
-                <Link to="/5r0wqpn8p5">
-                    <li>AR and 3D button</li>
-                </Link>
-                <Link to="/au8r3nxxb3">
-                    <li>3D+AR embedeed</li>
-                </Link>
-                <Link to="/t1kl07iwz3">
-                    <li>3D+AR button</li>
-                </Link>
-                <Link to="/1">
+
+                <Link to="/m07r92lap1">
                     <li>GroupImage</li>
                 </Link>
+                <Link to="/b2hmfxezw1">
+                    <li>GroupContextualImage</li>
+                </Link>
+                <Link to="/8xr8d2hho1">
+                    <li>GroupModelviewer</li>
+                </Link>          
+                <Link to="/fdbyy46zp1">
+                    <li>GroupAR</li>
+                </Link>
+
+                
             </div>
 
         )
