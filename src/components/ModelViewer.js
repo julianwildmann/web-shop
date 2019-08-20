@@ -11,7 +11,7 @@ class Modelviewer extends React.Component {
                 <div id="ModelViewerContainer">
                     <div>
                         <model-viewer
-                            id="reveal" preload camera-controls auto-rotate
+                            id="reveal" preload camera-controls 
                             background-color="#FFFFFF"
                             poster="media/3D-files/DSW_Poster.png"
                             src="media/3D-files/BlenderglTFBright.gltf"
