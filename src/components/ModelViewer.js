@@ -14,7 +14,7 @@ class Modelviewer extends React.Component {
                             id="reveal" preload camera-controls auto-rotate
                             background-color="#FFFFFF"
                             poster="media/3D-files/DSW_Poster.png"
-                            src="media/3D-files/BlenderglTF.gltf"
+                            src="media/3D-files/BlenderglTFBright.gltf"
                             alt="DSW 3D Model">
                         </model-viewer>
                     </div>
@@ -22,7 +22,7 @@ class Modelviewer extends React.Component {
                 </div>
 
                 <div className="ReturnLinkProductPage">
-                    <a href="https://lmubwl.eu.qualtrics.com/jfe/form/SV_ePUxw8PFpCkMt6J">Zurück zur Umfrage</a>
+                    <a href="https://lmubwl.eu.qualtrics.com/jfe/form/SV_d4HggX2AmuSSay1">Zurück zur Umfrage</a>
                 </div>
             </div>
         )
