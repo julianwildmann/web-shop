@@ -13,7 +13,6 @@ class GroupImage extends React.Component {
                     <Header />
                     <PlaceholderImage />
                     <Description />
-                    <ReturnLink />
                 </div>
         )
     }

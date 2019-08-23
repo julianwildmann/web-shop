@@ -13,7 +13,6 @@ class GroupModelviewer extends React.Component {
                     <Header />
                     <PlaceholderModelviewer />
                     <Description />
-                    <ReturnLink />
                 </div>
         )
     }

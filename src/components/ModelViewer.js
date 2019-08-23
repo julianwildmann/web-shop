@@ -11,14 +11,14 @@ class Modelviewer extends React.Component {
                 <div id="ModelViewerContainer">
                     <div>
                         <model-viewer
-                            id="reveal" preload camera-controls auto-rotate
+                            id="reveal" preload camera-controls
                             background-color="#FFFFFF"
                             poster="media/3D-files/DSW_Poster.png"
                             src="media/3D-files/DSW_3D.gltf"
                             alt="DSW 3D Model">
                         </model-viewer>
                     </div>
-                    <p id="instruction">Tippen Sie einmal auf den Stuhl und wischen Sie dann über das Modell, um es von allen Seiten zu betrachten.</p>
+                    <p id="instruction">Tippen Sie einmal auf den Stuhl und wischen Sie dann über das Modell, um es zu drehen und von allen Seiten zu betrachten.</p>
                 </div>
 
                 <div className="ReturnLinkProductPage">

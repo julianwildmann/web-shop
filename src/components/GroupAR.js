@@ -13,7 +13,6 @@ class GroupAR extends React.Component {
                     <Header />
                     <PlaceholderAR />
                     <Description />
-                    <ReturnLink />
                 </div>
         )
     }

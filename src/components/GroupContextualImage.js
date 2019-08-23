@@ -13,7 +13,6 @@ class GroupContextualImage extends React.Component {
                     <Header />
                     <PlaceholderContextualImage />
                     <Description />
-                    <ReturnLink />
                 </div>
         )
     }
