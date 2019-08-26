@@ -43,6 +43,7 @@ class App extends Component {
     // Prüfe, ob der User ein kompatibles iOS device verwendet (iPhone, iPad, iPod mit iOS 12 oder höher)
     // if(/(iPhone|iPad|iPod)\sOS\s12/.test(navigator.userAgent)) // if(isMobile)
 
+    if(isMobile)
     return (
       <HashRouter basename="/">
         <div className="App">
@@ -66,7 +67,7 @@ class App extends Component {
     // Falls ein inkompatibles Gerät verwendet wurde, zeige folgende Fehlermeldung:
     return (
       <div>
-        <p>Bitte starte die Umfrage auf einem Smartphone oder Tablet neu: Link.</p>
+        <p>Bitte starte die Umfrage erneut auf einem Smartphone oder Tablet.</p>
       </div>
     )
   }

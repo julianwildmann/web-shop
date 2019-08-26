@@ -2,7 +2,6 @@ import React from 'react';
 import Header from "./Header"
 import PlaceholderAR from "./PlaceholderAR";
 import Description from "./Description";
-import ReturnLink from "./ReturnLink";
 
 // Storefront AR Eames Chair DSW
 
