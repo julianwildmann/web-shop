@@ -7,7 +7,7 @@ class Image extends React.Component {
     render() {
         return (
             <div>
-                <div className="Image">
+                <div className="ProductImage">
                     <img src="media/ProductImage.jpg" alt="Eames Chair DSW" width="100%" height="auto" />
                 </div>
                 <div className="ReturnLinkProductPage">
