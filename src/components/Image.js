@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from "react-router-dom";
 
 // Image of Eames DSW Chair
 
@@ -10,8 +11,8 @@ class Image extends React.Component {
                 <div className="ContextualImage">
                     <img src="media/ProductImage2.jpg" alt="Eames Chair DSW" width="100%" height="auto" />
                 </div>
-                <div className="ReturnLinkProductPage">
-                    <a href="https://lmubwl.eu.qualtrics.com/jfe/form/SV_d4HggX2AmuSSay1">Zurück zur Umfrage</a>
+                <div className="LinkImage">
+                    <Link to="m07r92lap1">Zurück zur Produktseite</Link>
                 </div>
 
             </div>

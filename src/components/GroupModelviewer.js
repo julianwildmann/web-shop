@@ -2,6 +2,7 @@ import React from 'react';
 import Header from "./Header"
 import PlaceholderModelviewer from "./PlaceholderModelviewer";
 import Description from "./Description";
+import QualtricsLink from "./QualtricsLink";
 
 // Storefront Image Eames Chair DSW
 
@@ -12,6 +13,7 @@ class GroupModelviewer extends React.Component {
                     <Header />
                     <PlaceholderModelviewer />
                     <Description />
+                    <QualtricsLink />
                 </div>
         )
     }

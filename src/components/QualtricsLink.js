@@ -1,8 +1,8 @@
 import React from 'react';
 
-// Link that returns to qualtrics
+// Link that returns to Qualtrics
 
-class ReturnLink extends React.Component {
+class QualtricsLink extends React.Component {
     render() {
         return (
             <div className="ReturnLink">
@@ -12,4 +12,4 @@ class ReturnLink extends React.Component {
     }
 }
 
-export default ReturnLink;
+export default QualtricsLink;

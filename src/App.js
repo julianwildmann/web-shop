@@ -3,11 +3,7 @@ import { isMobile } from "react-device-detect";
 import { HashRouter, Route, Switch } from "react-router-dom";
 import './App.css';
 import Home from "./components/Home";
-
-
 import Links from "./components/Links";
-
-
 import GroupImage from './components/GroupImage';
 import Image from './components/Image'; 
 import GroupContextualImage from './components/GroupContextualImage';
@@ -18,32 +14,13 @@ import GroupAR from './components/GroupAR';
 import AR from './components/AR';
  
 
-
-if (navigator.xr) {
-  navigator.xr.requestDevice()
-    .then(xrDevice => {
-      console.log("this device is WebXR API ready")
-    })
-    .catch(err => {
-      if (err.name === 'NotFoundError') {
-        // No XRDevices available.
-        console.error('No XR devices available:', err);
-      } else {
-        // An error occurred while requesting an XRDevice.
-        console.error('Requesting XR device failed:', err);
-      }
-    })
-} else {
-  console.log("This browser does not support the WebXR API.");
-}
-
 class App extends Component {
 
   render() {
     // Prüfe, ob der User ein kompatibles iOS device verwendet (iPhone, iPad, iPod mit iOS 12 oder höher)
     // if(/(iPhone|iPad|iPod)\sOS\s12/.test(navigator.userAgent)) // if(isMobile)
 
-    if(isMobile)
+    //if(isMobile)
     return (
       <HashRouter basename="/">
         <div className="App">
@@ -67,7 +44,7 @@ class App extends Component {
     // Falls ein inkompatibles Gerät verwendet wurde, zeige folgende Fehlermeldung:
     return (
       <div>
-        <p>Bitte starte die Umfrage erneut auf einem Smartphone oder Tablet.</p>
+        <p>Ihr Gerät ist für diese Umfrage nicht geeignet. Bitte starten Sie die Umfrage erneut auf einem Smartphone oder Tablet.</p>
       </div>
     )
   }
