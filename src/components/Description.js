@@ -6,7 +6,7 @@ class Description extends React.Component {
             <div className="ProductDescription">
                 <div className="text">
                     <h3 align="left">Produktbeschreibung</h3>
-                    <p id="description-text">Beim Dining Height Side Chair Wood Base (DSW) kombinierten Charles und Ray Eames die organische Sitzschale mit einem Vierbein-Holzuntergestell. Die Kombination von Kunststoff und Holz verleiht dem Klassiker eine gewisse Wärme, eine besonders wohnliche Note.</p>
+                    <p id="description-text">Beim Dining Height Side Chair Wood Base (DSW) kombinierten Charles und Ray Eames die organische Sitzschale mit einem Vierbein-Holzuntergestell. Die Kombination von Kunststoff und Holz verleiht dem Klassiker eine gewisse Wärme und eine besonders wohnliche Note.</p>
                     <h3 align="left">Maße</h3>
                 </div>
 
