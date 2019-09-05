@@ -20,7 +20,7 @@ class App extends Component {
     // Prüfe, ob der User ein kompatibles iOS device verwendet (iPhone, iPad, iPod mit iOS 12 oder höher)
     // if(/(iPhone|iPad|iPod)\sOS\s12/.test(navigator.userAgent)) // if(isMobile)
 
-    //if(isMobile)
+    if(isMobile)
     return (
       <HashRouter basename="/">
         <div className="App">
