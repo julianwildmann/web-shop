@@ -14,7 +14,7 @@ class Modelviewer extends React.Component {
                         <model-viewer
                             id="reveal" preload camera-controls
                             background-color="#FFFFFF"
-                            poster="media/3D-files/DSW_Poster.png"
+                            poster="media/3D-files/DSW_Poster_load.png"
                             src="media/3D-files/DSW_3D.gltf"
                             alt="DSW 3D Model">
                         </model-viewer>
