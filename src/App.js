@@ -18,7 +18,7 @@ class App extends Component {
 
   render() {
     // Prüfe, ob der User ein kompatibles iOS device verwendet (iPhone, iPad, iPod mit iOS 12 oder höher)
-    // if(/(iPhone|iPad|iPod)\sOS\s12/.test(navigator.userAgent)) // if(isMobile)
+    // if(/(iPhone|iPad|iPod)\sOS\s12/.test(navigator.userAgent)) oder if(isMobile)
 
     if(isMobile)
     return (
